@@ -1,4 +1,11 @@
-# Quantum Choices and the Monty Hall Problem: A Study in Probabilistic Decision Making
+# Retzilience's Quantum Monty Hall Playground
+
+## Language Selection
+
+- [For English, click here.](#english-version)
+- [Em Português, clique aqui.](#versao-em-portugues)
+
+# <a name="english-version"></a>Quantum Choices and the Monty Hall Problem: A Study in Probabilistic Decision Making
 
 ![Retzchoice](https://github.com/Retzilience/retziliencemonty/blob/main/retzchoice.png)
 
@@ -100,3 +107,108 @@ Congratulations! You're now running
  the Monty Hall Retzilience Simulator! Enter the number of doors and trials, and witness the magic of probability unfold!
 
 Remember, there are no goats or cars behind the doors, just quantum probabilities waiting to be unraveled. Happy exploring!
+
+
+
+# <a name="versao-em-portugues"></a>Escolhas Quânticas e o Problema de Monty Hall: Um Estudo em Tomada de Decisão Probabilística
+
+![Retzchoice](https://github.com/Retzilience/retziliencemonty/blob/main/retzchoice.png)
+
+Bem-vindo ao _Simulador de Resiliência de Monty Hall_! Este não é apenas mais um simulador do problema de Monty Hall, é uma aventura na paisagem quântica de escolhas e probabilidades. Vamos desvendar o problema de Monty Hall, mas desta vez com um sabor de mecânica quântica.
+
+## O Clássico Problema de Monty Hall
+
+Aqui está a configuração clássica: você está em um programa de jogos com três portas. Atrás de uma porta há um carro; atrás das outras duas, cabras. Você escolhe uma porta, digamos, a porta #1. Agora, o apresentador, que sabe o que está por trás das portas, abre outra porta, digamos, a porta #3, que tem uma cabra. Agora ele te dá uma escolha: você quer ficar com sua escolha original (Porta #1) ou mudar para a porta restante não aberta (Porta #2)?
+
+Por mais contra-intuitivo que possa parecer, a melhor estratégia é **sempre mudar**. Ao mudar, sua probabilidade de ganhar o carro sobe para 2/3, ao contrário de ficar com sua escolha original que tem uma probabilidade de 1/3.
+
+## A Perspectiva da Escolha Quântica
+
+Assim como o mundo quântico, onde partículas existem em múltiplos estados até serem observadas, o carro está atrás de todas as portas até que Monty abra uma porta. Em outras palavras, o problema de Monty Hall exibe uma forma de _superposição quântica_ - múltiplas realidades potenciais existindo simultaneamente. O ato de Monty abrir uma porta é semelhante à observação que 'colapsa' essa superposição, deixando-nos com um novo conjunto de probabilidades.
+
+## E se Aumentarmos o Número de Portas?
+
+Se três portas te deixam confuso, que tal cem? Ou mil? A ideia principal por trás deste simulador é levar o problema de Monty Hall ao extremo. Quando você aumenta o número de portas, a vantagem de mudar se torna exponencialmente aparente e confirma o que era uma vez contra-intuitivo como algo fundamentalmente intuitivo. E é precisamente isso que nosso _Simulador de Resiliência de Monty Hall_ faz - permite que você simule o jogo com quantas portas e tentativas você quiser.
+
+## O Poder da Simulação
+
+O _Simulador de Resiliência de Monty Hall_ combina o poder do módulo random do Python com a interface gráfica intuitiva do tkinter, fornecendo uma maneira envolvente e perspicaz de explorar este problema. O programa simula milhares de jogos de Monty Hall em questão de segundos, coletando dados sobre os resultados com base em se você permanece ou muda. Desta forma, você pode ver o surpreendente poder da estratégia de mudança em ação
+
+.
+
+Lembre-se, a probabilidade não é apenas teoria - é a realidade acontecendo. E nosso simulador é uma caixa de areia onde essa realidade se desenrola. O problema de Monty Hall é uma bela demonstração de como nossa intuição pode muitas vezes nos levar a erros diante da dura verdade probabilística. Ao simular o problema, não apenas entendemos - nós o vivenciamos.
+
+## Conclusão
+
+O problema de Monty Hall é uma viagem fascinante ao mundo da probabilidade, e nosso simulador serve como seu guia turístico. Ao permitir um número arbitrário de portas e tentativas, ilumina a realidade contra-intuitiva do problema. Não é apenas um programa; é um playground digital para experimentar o mundo caprichoso das escolhas quânticas. Então, vá em frente, entre na paisagem quântica de portas, e lembre-se, às vezes é mais sábio mudar!
+
+![GUI](https://github.com/Retzilience/retziliencemonty/blob/main/GUI.png)
+
+# Configurando e Executando o Simulador de Resiliência de Monty Hall: Um Guia Amigável
+
+Bem-vindo à parte divertida! Vamos colocar o Simulador de Resiliência de Monty Hall em funcionamento em sua máquina. Não se preocupe se você é um novato em codificação, esta é uma zona livre de jargões! Siga estas etapas e você terá o simulador funcionando em pouco tempo.
+
+## Passo 1: Instalando o Python
+
+Primeiramente, precisamos ter certeza de que o Python está instalado em seu sistema. Aqui está como:
+
+### Windows:
+
+1. Visite a [página de downloads do Python](https://www.python.org/downloads/windows/).
+2. Clique na última versão do Python.
+3. Baixe e execute o pacote de instalação.
+4. Certifique-se de marcar a caixa que diz "Adicionar Python ao PATH" antes de clicar em Instalar.
+
+### MacOS:
+
+1. Abra o Terminal (você pode encontrá-lo em Aplicativos -> Utilitários).
+2. Digite `brew install python3` e pressione Enter (você precisa ter o Homebrew instalado, um gerenciador de pacotes útil para MacOS. Se você não tem, vá para o [site do Homebrew](https://brew.sh/) e siga as instruções lá).
+3. Aguarde a mágica acontecer!
+
+### Linux:
+
+1. Abra o Terminal.
+2. Digite `sudo apt-get install python3.8` e pressione Enter.
+3. Digite sua senha quando solicitado e aguarde a instalação do Python.
+
+## Passo 2: Instalando o Anaconda Navigator
+
+O Anaconda Navigator é uma ótima ferramenta que simplifica o gerenciamento de pacotes e ambientes Python. Ele também vem com Tkinter, uma biblioteca necessária para a execução do nosso script. Aqui está como instalá-lo:
+
+1. Visite a [página de distribuição do Anaconda](https://www.anaconda.com/distribution/).
+2. Baixe o instalador para o seu sistema operacional e siga as instruções de instalação fornecidas lá.
+
+## Passo 3: Clonando o Repositório
+
+Nós armazenamos o script do Simulador de Resiliência de Monty Hall em um repositório do GitHub. Para copiar este repositório para a sua máquina local, siga estes passos:
+
+1. Navegue até a página do repositório no GitHub ( https://github.com/Retzilience/retziliencemonty ).
+2. Clique no botão 'Código' e copie a URL mostrada.
+3. Abra o Terminal (ou Prompt de Comando para usuários do Windows).
+4. Navegue até o local onde você deseja clonar o repositório digitando `cd caminho_para_seu_diretório`.
+5. Digite `git clone ` e cole a URL que você copiou da página do GitHub.
+6. Pressione Enter para clonar o repositório.
+
+## Passo 4: Configurando o Arquivo de Log
+
+Nosso simulador registra cada simulação em um arquivo de log. Você precisa definir o caminho onde este arquivo será criado:
+
+1. Abra o arquivo `retziliencemonty.py` clonado em um editor de texto.
+2. Procure pela linha `LOG_FILE = '/seu_caminho/montylog.txt'`.
+3. Substitua `'/seu_caminho/montylog.txt'` pelo caminho onde você deseja que o arquivo de log seja criado, por exemplo, `'/Users/SeuNome/Documents/montylog.txt'` para MacOS ou `'C:/Users/SeuNome/Documents/montylog.txt'` para Windows.
+4. Salve e feche o arquivo.
+
+## Passo 5: Executando o Simulador
+
+Agora, é hora de dar vida ao nosso simulador!
+
+1. Abra o Anaconda Navigator.
+2. Clique na aba 'Ambientes'.
+3. Encontre 'base(root)' na lista e clique no botão de play à direita.
+4. Selecione 'Abrir Terminal'.
+5. No Terminal, navegue até a localização do arquivo `retziliencemonty.py` usando o comando `cd`.
+6. Digite `python3 retziliencemonty.py` e pressione Enter.
+
+Parabéns! Agora você está executando o Simulador de Resiliência de Monty Hall! Insira o número de portas e tentativas, e testemunhe a magia da probabilidade se desdobrar!
+
+Lembre-se, não há cabras ou carros atrás das portas, apenas probabilidades quânticas esperando para serem desvendadas. Divirta-se explorando!
