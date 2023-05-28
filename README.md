@@ -114,7 +114,7 @@ Remember, there are no goats or cars behind the doors, just quantum probabilitie
 
 ![Retzchoice](https://github.com/Retzilience/retziliencemonty/blob/main/retzchoice.png)
 
-Bem-vindo ao _Simulador de Resiliência de Monty Hall_! Este não é apenas mais um simulador do problema de Monty Hall, é uma aventura na paisagem quântica de escolhas e probabilidades. Vamos desvendar o problema de Monty Hall, mas desta vez com um sabor de mecânica quântica.
+Bem-vindo ao _Simulador de Retzilience de Monty Hall_! Este não é apenas mais um simulador do problema de Monty Hall, é uma aventura na paisagem quântica de escolhas e probabilidades. Vamos desvendar o problema de Monty Hall, mas desta vez com um sabor de mecânica quântica.
 
 ## O Clássico Problema de Monty Hall
 
