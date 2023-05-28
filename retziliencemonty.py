@@ -4,7 +4,7 @@ import random
 import os
 
 # File to log the results
-LOG_FILE = '/Users/renatofigueiredo/Documents/montylog.txt'
+LOG_FILE = '/your_path/montylog.txt'
 LOGGING_ENABLED = True
 
 class MontyHallApp:
