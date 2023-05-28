@@ -1,5 +1,7 @@
 # Quantum Choices and the Monty Hall Problem: A Study in Probabilistic Decision Making
 
+![Retzchoice](https://github.com/Retzilience/retziliencemonty/blob/main/retzchoice.png)
+
 Welcome to the _Monty Hall Retzilience Simulator_! This is not just another Monty Hall problem simulator, it is an adventure in the quantum landscape of choices and probabilities. Let's unravel the Monty Hall problem, but this time with a flavor of quantum mechanics.
 
 ## The Classic Monty Hall Problem
@@ -25,6 +27,8 @@ Remember, probability isn't just theory - it's reality playing out. And our simu
 ## Wrapping Up
 
 The Monty Hall problem is a fascinating journey into the world of probability, and our simulator serves as your tour guide. By allowing for an arbitrary number of doors and trials, it illuminates the counter-intuitive reality of the problem. It is not just a program; it's a digital playground to experience the whimsical world of quantum choices. So go ahead, step into the quantum landscape of doors, and remember, sometimes it's wiser to switch!
+
+![GUI](https://github.com/Retzilience/retziliencemonty/blob/main/GUI.png)
 
 # Setting Up and Running the Monty Hall Retzilience Simulator: A Friendly Guide
 
