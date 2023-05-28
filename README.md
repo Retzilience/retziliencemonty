@@ -128,11 +128,11 @@ Assim como o mundo quântico, onde partículas existem em múltiplos estados at�
 
 ## E se Aumentarmos o Número de Portas?
 
-Se três portas te deixam confuso, que tal cem? Ou mil? A ideia principal por trás deste simulador é levar o problema de Monty Hall ao extremo. Quando você aumenta o número de portas, a vantagem de mudar se torna exponencialmente aparente e confirma o que era uma vez contra-intuitivo como algo fundamentalmente intuitivo. E é precisamente isso que nosso _Simulador de Resiliência de Monty Hall_ faz - permite que você simule o jogo com quantas portas e tentativas você quiser.
+Se três portas te deixam confuso, que tal cem? Ou mil? A ideia principal por trás deste simulador é levar o problema de Monty Hall ao extremo. Quando você aumenta o número de portas, a vantagem de mudar se torna exponencialmente aparente e confirma o que era uma vez contra-intuitivo como algo fundamentalmente intuitivo. E é precisamente isso que nosso _Simulador de Retzilience de Monty Hall_ faz - permite que você simule o jogo com quantas portas e tentativas você quiser.
 
 ## O Poder da Simulação
 
-O _Simulador de Resiliência de Monty Hall_ combina o poder do módulo random do Python com a interface gráfica intuitiva do tkinter, fornecendo uma maneira envolvente e perspicaz de explorar este problema. O programa simula milhares de jogos de Monty Hall em questão de segundos, coletando dados sobre os resultados com base em se você permanece ou muda. Desta forma, você pode ver o surpreendente poder da estratégia de mudança em ação
+O _Simulador de Retzilience de Monty Hall_ combina o poder do módulo random do Python com a interface gráfica intuitiva do tkinter, fornecendo uma maneira envolvente e perspicaz de explorar este problema. O programa simula milhares de jogos de Monty Hall em questão de segundos, coletando dados sobre os resultados com base em se você permanece ou muda. Desta forma, você pode ver o surpreendente poder da estratégia de mudança em ação
 
 .
 
@@ -144,9 +144,9 @@ O problema de Monty Hall é uma viagem fascinante ao mundo da probabilidade, e n
 
 ![GUI](https://github.com/Retzilience/retziliencemonty/blob/main/GUI.png)
 
-# Configurando e Executando o Simulador de Resiliência de Monty Hall: Um Guia Amigável
+# Configurando e Executando o Simulador de Retzilience de Monty Hall: Um Guia Amigável
 
-Bem-vindo à parte divertida! Vamos colocar o Simulador de Resiliência de Monty Hall em funcionamento em sua máquina. Não se preocupe se você é um novato em codificação, esta é uma zona livre de jargões! Siga estas etapas e você terá o simulador funcionando em pouco tempo.
+Bem-vindo à parte divertida! Vamos colocar o Simulador de Retzilience de Monty Hall em funcionamento em sua máquina. Não se preocupe se você é um novato em codificação, esta é uma zona livre de jargões! Siga estas etapas e você terá o simulador funcionando em pouco tempo.
 
 ## Passo 1: Instalando o Python
 
@@ -180,7 +180,7 @@ O Anaconda Navigator é uma ótima ferramenta que simplifica o gerenciamento de 
 
 ## Passo 3: Clonando o Repositório
 
-Nós armazenamos o script do Simulador de Resiliência de Monty Hall em um repositório do GitHub. Para copiar este repositório para a sua máquina local, siga estes passos:
+Nós armazenamos o script do Simulador de Retzilience de Monty Hall em um repositório do GitHub. Para copiar este repositório para a sua máquina local, siga estes passos:
 
 1. Navegue até a página do repositório no GitHub ( https://github.com/Retzilience/retziliencemonty ).
 2. Clique no botão 'Código' e copie a URL mostrada.
@@ -209,6 +209,6 @@ Agora, é hora de dar vida ao nosso simulador!
 5. No Terminal, navegue até a localização do arquivo `retziliencemonty.py` usando o comando `cd`.
 6. Digite `python3 retziliencemonty.py` e pressione Enter.
 
-Parabéns! Agora você está executando o Simulador de Resiliência de Monty Hall! Insira o número de portas e tentativas, e testemunhe a magia da probabilidade se desdobrar!
+Parabéns! Agora você está executando o Simulador de Retzilience de Monty Hall! Insira o número de portas e tentativas, e testemunhe a magia da probabilidade se desdobrar!
 
 Lembre-se, não há cabras ou carros atrás das portas, apenas probabilidades quânticas esperando para serem desvendadas. Divirta-se explorando!
