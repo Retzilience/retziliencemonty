@@ -5,7 +5,7 @@ import os
 
 # File to log the results
 LOG_FILE = '/your_path/montylog.txt'
-LOGGING_ENABLED = True
+LOGGING_ENABLED = False
 
 class MontyHallApp:
     def __init__(self, master):
