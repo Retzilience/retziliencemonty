@@ -1,9 +1,9 @@
 # Retzilience's Quantum Monty Hall Playground
 
-## Language Selection
+## Language
 
-- [For English, click here.](#english-version)
-- [Em Português, clique aqui.](#versao-em-portugues)
+##- [For English, click here.](#english-version)
+##- [Em Português, clique aqui.](#versao-em-portugues)
 
 # <a name="english-version"></a>Quantum Choices and the Monty Hall Problem: A Study in Probabilistic Decision Making
 
