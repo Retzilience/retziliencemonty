@@ -108,7 +108,19 @@ Congratulations! You're now running
 
 Remember, there are no goats or cars behind the doors, just quantum probabilities waiting to be unraveled. Happy exploring!
 
+## Code Overview
 
+The script defines a `MontyHallApp` class, which is responsible for setting up the GUI and running the simulation. The GUI is composed of a few labels and input fields for the user to specify the parameters of the simulation (i.e., the number of doors and trials), and a button to run the simulation.
+
+The simulation itself is implemented in the `run_simulation` method, which reads the input parameters, performs the specified number of trials, and calculates the probabilities of winning if the contestant decides to stick with their initial choice or always switch doors.
+
+Each trial is performed by the `simulate_game` method, which randomly places the prize behind one of the doors and simulates the contestant's choices and the host's actions according to the rules of the game. The method returns a pair of boolean values indicating whether the contestant would win if they stuck with their initial choice and if they switched doors, respectively.
+
+Finally, the simulation results are displayed in a message box and, if logging is enabled, appended to a log file.
+
+## Logging
+
+The script supports optional logging of the simulation results. To enable logging, set the `LOGGING_ENABLED` variable to `True` and specify the path to the log file in the `LOG_FILE` variable. With logging enabled, the script will append the results of each simulation to the log file in addition to displaying them in the GUI.
 
 # <a name="versao-em-portugues"></a>Escolhas Quânticas e o Problema de Monty Hall: Um Estudo em Tomada de Decisão Probabilística
 
