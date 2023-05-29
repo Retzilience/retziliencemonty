@@ -224,3 +224,17 @@ Agora, é hora de dar vida ao nosso simulador!
 Parabéns! Agora você está executando o Simulador de Retzilience de Monty Hall! Insira o número de portas e tentativas, e testemunhe a magia da probabilidade se desdobrar!
 
 Lembre-se, não há cabras ou carros atrás das portas, apenas probabilidades quânticas esperando para serem desvendadas. Divirta-se explorando!
+
+## Visão Geral do Código
+
+O script define a classe `MontyHallApp`, que é responsável por configurar a interface gráfica do usuário (GUI) e executar a simulação. A GUI é composta por alguns rótulos e campos de entrada para o usuário especificar os parâmetros da simulação (ou seja, o número de portas e testes), e um botão para executar a simulação.
+
+A própria simulação é implementada no método `run_simulation`, que lê os parâmetros de entrada, realiza o número especificado de testes e calcula as probabilidades de vitória se o participante decidir manter sua escolha inicial ou sempre trocar de porta.
+
+Cada teste é realizado pelo método `simulate_game`, que coloca aleatoriamente o prêmio atrás de uma das portas e simula as escolhas do participante e as ações do apresentador de acordo com as regras do jogo. O método retorna um par de valores booleanos indicando se o participante venceria se mantivesse sua escolha inicial e se trocasse de porta, respectivamente.
+
+Finalmente, os resultados da simulação são exibidos em uma caixa de mensagem e, se o registro de eventos (logging) estiver ativado, são anexados a um arquivo de log.
+
+## Registro de Eventos (Logging)
+
+O script oferece suporte opcional ao registro de resultados da simulação. Para ativar o registro, defina a variável `LOGGING_ENABLED` como `True` e especifique o caminho para o arquivo de log na variável `LOG_FILE`. Com o registro ativado, o script anexará os resultados de cada simulação ao arquivo de log, além de exibi-los na GUI.
